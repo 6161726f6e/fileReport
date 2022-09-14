@@ -22,7 +22,7 @@ These reports are also archived in fileList-bak/ in the directory from which it
 
 ## EXAMPLE:
 ```
-./fileReport.sh /tmp/file-dir/ yourself@email.com
+$ ./fileReport.sh /tmp/file-dir/ yourself@email.com
 fullDir = /tmp/file-dir/
 simpleDir = tmp-file-dir
 Getting full file list
@@ -33,7 +33,7 @@ cleaning up...
 ```
 ## SAMPLE REPORT:
 ```
-cat fileList-bak/detailedFileList-tmp-file-dir-09-14.txt 
+$ cat fileList-bak/detailedFileList-tmp-file-dir-09-14.txt 
 2022-09-14 07:31:12 ---> /tmp/file-dir/test.txt
 2022-09-14 07:32:41 ---> /tmp/file-dir/test2.txt
 ```
